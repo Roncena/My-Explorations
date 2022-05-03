@@ -79,12 +79,12 @@ A summary of the access policies in place can be found in the table below.
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because automating configuration using Ansible provides efficiency of deploying different applications to multiple machines.
 
 The playbook implements the following tasks:
-  Install docker.io
-  Install python3-pip
-  Install Docker python module
-  Increase virtual memory space
-  Download and launch ELK container
-  Start services upon boot
+  - Install docker.io
+  - Install python3-pip
+  - Install Docker python module
+  - Increase virtual memory space
+  - Download and launch ELK container
+  - Start services upon boot
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
@@ -111,20 +111,20 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-Copy the install-elk.yml file to the directory /etc/ansible  
-Update the /etc/ansible/host file to include the IP address of the ELK server
+- Copy the install-elk.yml file to the directory /etc/ansible  
+- Update the /etc/ansible/host file to include the IP address of the ELK server
 
 ![](/Images/etc_ansible_hosts.png)
 
-Run the playbook, SSH to the ELK server and run the command "curl http://localhost:5601/app/kibana and navigate to http://[ELKpublicip]:5601/app/kibana to check that the installation worked as expected.
+- Run the playbook, SSH to the ELK server and run the command "curl http://localhost:5601/app/kibana and navigate to http://[ELKpublicip]:5601/app/kibana to check that the installation worked as expected.
 
 ![](/Images/ELK_Deployment.png)
 
 Then:
-Copy the filebeat-playbook.yml and metricbeat-playbook.yml to /etc/ansible/roles
-Update the filebeat-config.yml and metricbeat-config.yml with the ELK server IP address
-Run the playbooks
-Navigate back to http://[ELKpublicip]:5601/app/kibana to check that the ELK server is running and monitoring the 3 webservers
+- Copy the filebeat-playbook.yml and metricbeat-playbook.yml to /etc/ansible/roles
+- Update the filebeat-config.yml and metricbeat-config.yml with the ELK server IP address
+- Run the playbooks
+- Navigate back to http://[ELKpublicip]:5601/app/kibana to check that the ELK server is running and monitoring the 3 webservers
 
 ![](/Images/Filebeat.png)
 
@@ -134,4 +134,4 @@ Run the commands to download the configuration file for Filebeat (filebeat-confi
 
 curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/filebeat-config.yml
 
-curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/metric-config.yml
+curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Metricbeat > /etc/ansible/metric-config.yml
