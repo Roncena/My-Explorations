@@ -1,9 +1,9 @@
-#Skills_Unlocked
+# Skills_Unlocked
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
 
-/Images/ELK_Stack.png
+![](/Images/ELK_Stack.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the install-elk.yml file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -88,7 +88,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-/Images/ELK_Docker.png
+![](Images/docker_ps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -111,18 +111,24 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-Copy the install-elk.yml file to the directory /etc/ansible
-Update the /etc/ansible/host file to include the IP addresses of the Webservers (Web-1, Web-2, Web-3)
+Copy the install-elk.yml file to the directory /etc/ansible  
+Update the /etc/ansible/host file to include the IP address of the ELK server
 
-/Images/etc:ansible:hosts.png
+![](/Images/etc_ansible_hosts.png)
 
-Run the playbook, and navigate to the Webservers to check that the installation worked as expected.
+Run the playbook, SSH to the ELK server and run the command "curl http://localhost:5601/app/kibana and navigate to http://[ELKpublicip]:5601/app/kibana to check that the installation worked as expected.
+
+![](/Images/ELK_Deployment.png)
 
 Then:
 Copy the filebeat-playbook.yml and metricbeat-playbook.yml to /etc/ansible/roles
 Update the filebeat-config.yml and metricbeat-config.yml with the ELK server IP address
 Run the playbooks
-Then run the curl http://<ELKserverpublicipaddress>:5601/app/kibana command on the ELK server in order to check that the ELK server is running
+Navigate back to http://[ELKpublicip]:5601/app/kibana to check that the ELK server is running and monitoring the 3 webservers
+
+![](/Images/Filebeat.png)
+
+![](/Images/Metricbeat.png)
 
 Run the commands to download the configuration file for Filebeat (filebeat-config.yml) and Metricbeat (metricbeat-config.yml), respectively:
 
