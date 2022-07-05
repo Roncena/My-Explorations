@@ -3,34 +3,34 @@ Step 1: Measure and Set Goals
 
 1.  Using outside research, indicate the potential security risks of allowing employees to access work information on their personal devices. Identify at least three potential attacks that can be carried out.
 
-    Loss of unsecured device/Device Theft - Possibility of data theft
-    Malware - downloading malicious attachment then use the same device to log in the corporate network 
-    Unsecured wifi network - Data interception 
+        Loss of unsecured device/Device Theft - Possibility of data theft
+        Malware - downloading malicious attachment then use the same device to log in the corporate network 
+        Unsecured wifi network - Data interception 
 
 2.  Based on the above scenario, what is the preferred employee behavior?
 
-    Lock the device, do not leave the device unattended and use a strong password.
-    Employee education and installation of antivirus software. 
-    Use secure Wifi and VPN
+        Lock the device, do not leave the device unattended and use a strong password.
+        Employee education and installation of antivirus software. 
+        Use secure Wifi and VPN
 
 3.  What methods would you use to measure how often employees are currently not behaving according to the preferred behavior?
 
-    The Security Department can initially launch a phishing test to unsuspecting employees to gather raw baseline data of how many employees are clicking and downloading attachments that pose a security risk.  Then send questionnaires regarding the employee behavioral aspect of cyber security and usage.
+        The Security Department can initially launch a phishing test to unsuspecting employees to gather raw baseline data of how many employees are clicking and downloading attachments that pose a security risk.  Then send questionnaires regarding the employee behavioral aspect of cyber security and usage.
 
 4.  What is the goal that you would like the organization to reach regarding this behavior?
 
-    After the initial data gathering from the questionnaires,  we can categorize the goals per security risk like ability or know how of accessing to VPN/secure network, user’s basic knowledge of securing the physical device, protection of credentials/accounts, how many people are aware and know how to install company approved antivirus software and number of people clicking questionable links from the phishing test.  Per each category, we can establish a short term goal of lowering the percentage value to 5% less than the original value every quarter.  And as a long term goal at the end of the year, the goal for each category should be 1% or less. 
+        After the initial data gathering from the questionnaires,  we can categorize the goals per security risk like ability or know how of accessing to VPN/secure network, user’s basic knowledge of securing the physical device, protection of credentials/accounts, how many people are aware and know how to install company approved antivirus software and number of people clicking questionable links from the phishing test.  Per each category, we can establish a short term goal of lowering the percentage value to 5% less than the original value every quarter.  And as a long term goal at the end of the year, the goal for each category should be 1% or less. 
 
 
 Step 2: Involve the Right People
 
 5.  Indicate at least three employees or departments that need to be involved. For each person or department, indicate in 2-3 sentences what their role and responsibilities will be.
 
-    Chief Information Officer (CIO) is responsible for managing the organization's software development.  He is in charge of developing and enforcing IT policies, procedures and best practices in the organization such as setting up corporate networks and use of VPN.
+        Chief Information Officer (CIO) is responsible for managing the organization's software development.  He is in charge of developing and enforcing IT policies, procedures and best practices in the organization such as setting up corporate networks and use of VPN.
 
-    Chief Information Security Officer (CISO) is a senior-level executive responsible for developing and implementing an information and security program.  He also coordinates with the CIO to implement security policies and procedures.
+        Chief Information Security Officer (CISO) is a senior-level executive responsible for developing and implementing an information and security program.  He also coordinates with the CIO to implement security policies and procedures.
 
-    Director of Network Security is responsible for protecting a computer network by troubleshooting, monitoring and detecting potential threats to promote digital security of the company. 
+        Director of Network Security is responsible for protecting a computer network by troubleshooting, monitoring and detecting potential threats to promote digital security of the company. 
 
 
 Step 3: Training Plan
