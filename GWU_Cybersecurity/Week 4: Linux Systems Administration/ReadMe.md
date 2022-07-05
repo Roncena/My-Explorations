@@ -88,9 +88,9 @@ Step 4: Lynis Auditing
   4.  Provide a report from the Lynis output on what can be done to harden the system.
 
 Screenshot of report output:
-![](Images/Week_4/Lynis_suggestions1.png)
-![](Images/Week_4/Lynis_suggestions2.png)
-![](Images/Week_4/Lynis_suggestions3.png)
+![](Images/Lynis_suggestions1.png)
+![](Images/Lynis_suggestions2.png)
+![](Images/Lynis_suggestions3.png)
 
 Bonus
   1.  Command to install chkrootkit: 
@@ -104,4 +104,4 @@ Bonus
 
   4.  Provide a report from the chrootkit output on what can be done to harden the system.
 
-![](Images/Week_4/Chkrookit_output.png)
+![](Images/Chkrookit_output.png)
