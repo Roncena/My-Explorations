@@ -88,9 +88,9 @@ sudo lynis audit system
 4.  Provide a report from the Lynis output on what can be done to harden the system.
 
 Screenshot of report output:
-![](Images/Week_4/Lynis_suggestions1)
-![](Images/Week_4/Lynis_suggestions2)
-![](Images/Week_4/Lynis_suggestions3)
+![](./Images/Week_4/Lynis_suggestions1)
+![](./Images/Week_4/Lynis_suggestions2)
+![](./Images/Week_4/Lynis_suggestions3)
 
 Bonus
 1.  Command to install chkrootkit: 
