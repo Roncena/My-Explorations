@@ -2,6 +2,8 @@ Phase 1: "I'd like to Teach the World to Ping"
 List the steps and commands used to complete the tasks.
 
     fping -s -g 15.199.95.91/28
+    
+    ![](Images/fping1.png)
 
 
     fping -s -g 15.199.94.91/28
