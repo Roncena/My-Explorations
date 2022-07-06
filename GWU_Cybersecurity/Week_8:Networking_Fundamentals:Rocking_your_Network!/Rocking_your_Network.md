@@ -78,7 +78,7 @@ List the steps and commands used to complete the tasks.
       exit
       nslookup 98.137.246.8
 
-![](Images/ssh1.png)
+   ![](Images/ssh1.png)
 
 List any vulnerabilities discovered.
 
