@@ -14,7 +14,7 @@ Step 2: DNS and Domain Discovery
 Enter the IP address for demo.testfire.net into Domain Dossier and answer the following questions based on the results:
 1.  Where is the company located:
 
-        Sunnyvale, CA 94085
+         Sunnyvale, CA 94085
      
 2.  What is the NetRange IP address:
 
@@ -22,63 +22,69 @@ Enter the IP address for demo.testfire.net into Domain Dossier and answer the fo
     
 3.  What is the company they use to store their infrastructure:
 
-        Rackspace Backbone Engineering in 
-        9725 Datapoint Drive, Suite 100
-        San Antonio, TX  78229
+       	 Rackspace Backbone Engineering in 
+       	 9725 Datapoint Drive, Suite 100
+       	 San Antonio, TX  78229
 
 4.  What is the IP address of the DNS server:
 
-        65.61.137.117
+         65.61.137.117
 
 
 Step 3: Shodan
 What open ports and running services did Shodan find:
 	
-        80, 443, 8080
+         80, 443, 8080
         
 Step 4: Recon-ng
 Install the Recon module xssed.
 	
-    recon-ng
-    marketplace install xssed
-    modules load recon/domains-vulnerabilities/xssed
+   	 recon-ng
+         marketplace install xssed
+         modules load recon/domains-vulnerabilities/xssed
 
 Set the source to demo.testfire.net.
 	
-    options set SOURCE demo.testfire.net
+   	 options set SOURCE demo.testfire.net
   
 Run the module.
 	
-    run
+    	 run
     
 Is Altoro Mutual vulnerable to XSS:
 
-    Yes.  See below
+       	 Yes.
    
-![](Images/
+![](Images/Pentest1.png)
 
 Step 5: Zenmap
 Your client has asked that you help identify any vulnerabilities with their file-sharing server. Using the Metasploitable machine to act as your client's server, complete the following:
 Command for Zenmap to run a service scan against the Metasploitable machine:
 
-    sudo zenmap
-    Set Target: 192.168.0.10 (which is the IP of Metasploitable machine)
-    Set Profile: Intense scan
-    Command: nmap -T4 -A -v 192.168.0.10
+    	sudo zenmap
+   	Set Target: 192.168.0.10 (which is the IP of Metasploitable machine)
+   	Set Profile: Intense scan
+   	Command: nmap -T4 -A -v 192.168.0.10
     
 Bonus command to output results into a new text file named zenmapscan.txt:
 
-    nmap -T4 -A -v 192.168.0.10 -oN zenmapscan.txt
+   	nmap -T4 -A -v 192.168.0.10 -oN zenmapscan.txt
     
 Zenmap vulnerability script command:
 
-    nmap -T4 -A -v --script ftp-vsftpd-backdoor,smb-enum-shares 192.168.0.10
+    	nmap -T4 -A -v --script ftp-vsftpd-backdoor,smb-enum-shares 192.168.0.10
 
 Once you have identified this vulnerability, answer the following questions for your client:
 
 1.  What is the vulnerability:
 
-        I executed two scripts.  See results below.
+        I executed two scripts.
+	
+![](Images/Pentest2.png)
+
+![](Images/Pentest3.png)
+
+![](Images/Pentest4.png)
 
 2.  Why is it dangerous:
 
