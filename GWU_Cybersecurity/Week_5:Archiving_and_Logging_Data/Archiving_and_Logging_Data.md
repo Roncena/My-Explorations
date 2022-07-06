@@ -169,5 +169,5 @@ Bonus (Research Activity): Perform Various Log Filtering Techniques
 
   5.  Command to automate the last command in a daily cronjob. Add the edits made to the crontab file below: 
         
-                0 8 * * * journalctl -p 0..2 >> /home/sysadmin/Priority_High.txt 
+          0 8 * * * journalctl -p 0..2 >> /home/sysadmin/Priority_High.txt 
 
