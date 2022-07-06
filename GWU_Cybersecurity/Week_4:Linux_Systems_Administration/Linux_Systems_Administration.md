@@ -90,7 +90,7 @@ Step 4: Lynis Auditing
 Screenshot of report output:
 ![](Images/Lynis_suggestions1.png)
 ![](Images/Lynis_suggestions2.png)
-![](Images/Lynis_suggestions3.png)
+    ![](Images/Lynis_suggestions3.png)
 
 Bonus
   1.  Command to install chkrootkit: 
