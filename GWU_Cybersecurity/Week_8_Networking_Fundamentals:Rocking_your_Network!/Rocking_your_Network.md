@@ -3,21 +3,24 @@ List the steps and commands used to complete the tasks.
 
     fping -s -g 15.199.95.91/28
     
-    ![](Images/fping1.png)
+![](Images/fping1.png)
 
 
     fping -s -g 15.199.94.91/28
 
+![](Images/fping2.png)
 
     fping -s -g 11.199.158.91/28
 
+![](Images/fping3.png)
 
     fping -s -g 167.172.144.11/32
 
+![](Images/fping4.png)
 
     fping -s -g 11.199.141.91/28
 
-
+![](Images/fping5.png)
 
     All IP addresses from RockStar Server list for the Hollywood office are unreachable except for 167.172.144.11
 
@@ -44,6 +47,8 @@ Phase 2: "Some Syn for Nothin`"
 List the steps and commands used to complete the tasks.
 
     sudo nmap -sS 167.172.144.11
+    
+![](Images/nmap.png)
 
 List any vulnerabilities discovered.
    
@@ -73,6 +78,7 @@ List the steps and commands used to complete the tasks.
       exit
       nslookup 98.137.246.8
 
+![](Images/ssh1.png)
 
 List any vulnerabilities discovered.
 
@@ -100,7 +106,7 @@ List the steps and commands used to complete the tasks.
       ls
       cat packetcaptureinfo.txt
 
-
+![](Images/ssh2.png)
 
       Downloaded the packet and opened it using Wireshark
 
