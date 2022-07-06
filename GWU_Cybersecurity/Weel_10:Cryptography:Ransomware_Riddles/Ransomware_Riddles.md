@@ -1,0 +1,63 @@
+Cryptography Homework: Ransomware Riddles
+
+Riddle 1:
+
+
+
+
+
+
+Riddle 2:
+
+
+
+
+Riddle 3:
+
+
+
+
+
+Riddle 4:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Riddle 5:
+
+
+
+
+
+
+
+
+
+
+Riddle 6:
+
+
+
+
+
+
+
+
