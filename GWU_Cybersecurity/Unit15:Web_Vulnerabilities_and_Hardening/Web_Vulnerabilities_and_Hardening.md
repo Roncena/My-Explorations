@@ -1,4 +1,4 @@
-Unit 15 Homework: Web Vulnerabilities and Hardening
+Unit 15: Web Vulnerabilities and Hardening
 
 Web Application 1: Your Wish is My Command Injection
 
@@ -36,6 +36,7 @@ Use the web application tool Burp Suite, specifically the Burp Suite Intruder fe
 You've been provided with a list of administrators and the breached passwords:
 
 List of Administrators
+
 Breached list of Passwords
 
 Generate a login request and capture the traffic using Burp Suite.  Send the HTTP request to Burp Intruder.
