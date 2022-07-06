@@ -177,7 +177,6 @@ What is the status of http, https, smtp and pop3? As directed:
 
 ![](Images/Public.png)
 
-![](Images/Web.png)
 
 ![](Images/Sales.png)
 
