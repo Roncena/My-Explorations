@@ -111,7 +111,7 @@ Inspect your traffic to answer the following questions in your network report:
 
 Network Forensic Analysis Report:  https://docs.google.com/document/d/1HHLNbmfQ1luglKxlgaQf-9iq9uNyOPyMCLJ78LUYUbI/edit?usp=sharing
 
-Presentation of Offensive, Defensive and Network Administration analyses: 
+Presentation of Offensive, Defensive and Network Administration Analyses: 
 https://docs.google.com/presentation/d/1WP6MxuaPo1CBRuZsKVyf00F9GiOHGeRgWb4ZI-V3djs/edit?usp=sharing 
 
 
