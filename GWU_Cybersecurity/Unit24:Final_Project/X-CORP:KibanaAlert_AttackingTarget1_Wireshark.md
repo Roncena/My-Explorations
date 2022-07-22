@@ -36,8 +36,6 @@ You can configure any alerts you'd like, but you are recommended to start with t
 
     WHEN max() OF system.process.cpu.total.pct OVER all documents IS ABOVE 0.5 FOR THE LAST 5 minutes
 
-Blue Team: Summary of Operations:  https://docs.google.com/document/d/1pLW6g3Fyq7ehrtfIMNQWomLdxfXoFXcf4S7ra4UKnzY/edit?usp=sharing
-
 Attacking Target 1
 
 1.  Scan the network to identify the IP addresses of Target 1.
@@ -59,6 +57,8 @@ Attacking Target 1
 9.  Escalate to root. One flag can be discovered after this step.
 
 Red Team: Summary of Operations: https://docs.google.com/document/d/1YduPENeUaFkWQ6Bz0eru7MNr-Nlimy6kKgRx2jJ9TYE/edit?usp=sharing
+
+Blue Team: Summary of Operations:  https://docs.google.com/document/d/1pLW6g3Fyq7ehrtfIMNQWomLdxfXoFXcf4S7ra4UKnzY/edit?usp=sharing
 
 Wireshark Strikes Back
 
