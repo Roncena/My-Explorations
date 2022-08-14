@@ -92,10 +92,6 @@ Social Engineering >> Fake Notification Bar
 
 ![](Images/Web_Vuln12.png)
 
-Host >> Get Geolocation (Third Party)
-
-![](Images/Web_Vuln13.png)
-
 Mitigation Strategy:
 
     Service-side input validation to prevent scripts from being stored on web applications.
