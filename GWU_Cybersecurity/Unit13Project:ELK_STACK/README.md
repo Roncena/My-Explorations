@@ -40,7 +40,7 @@ What does Filebeat watch for?
 
 What does Metricbeat record?
 
-	Metricbeat records specific information about the machine operations in the network including but not limited to CPU usage, memory and uptime .
+	Metricbeat records specific information about the machine operations in the network including but not limited to CPU usage, memory and uptime.
 
 The configuration details of each machine may be found below.
 
@@ -58,7 +58,7 @@ The machines on the internal network are not exposed to the public Internet.
 
 Only the JumpBoxProvisioner virtual machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
-  Workstation pubic IP Address
+  Workstation public IP Address
 
 Machines within the network can only be accessed by SSH.
 
